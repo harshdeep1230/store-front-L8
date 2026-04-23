@@ -131,7 +131,7 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #0a5620;
+  background-color: #0046be;
   color: #fff;
   padding: 1rem;
   margin: 0;
@@ -161,7 +161,7 @@ a {
 
 button {
   padding: 10px;
-  background-color: #005f8b;
+  background-color: #0046be;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -216,7 +216,9 @@ button {
 }
 
 .product-controls button:hover {
-  background-color: #005f8b;
+  
+  background-color: #fff200; /* Best Buy Yellow on hover */
+  color: #000; /* Change text to black so it's readable on yellow */
 }
 
 .product-price {
@@ -269,7 +271,7 @@ button {
 .checkout-button {
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #007acc;
+  background-color: #0046be;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -277,6 +279,6 @@ button {
 }
 
 .checkout-button:hover {
-  background-color: #005f8b;
+  background-color: #fff200;
 }
 </style>
